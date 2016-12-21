@@ -1,0 +1,27 @@
+-keep class com.nas.cruzer.LoginActivity { <init>(); }
+-keep class com.nas.cruzer.DriverPositionActivity { <init>(); }
+-keep class com.nas.cruzer.DriverActivity { <init>(); }
+-keep class com.nas.cruzer.RequestedUserActivity { <init>(); }
+-keep class com.nas.cruzer.UserRequestActivity { <init>(); }
+-keep class com.nas.cruzer.UserRequestDetailsActivity { <init>(); }
+-keep class com.nas.cruzer.UserEditProfileActivity { <init>(); }
+-keep class com.nas.cruzer.DriverTrackActivity { <init>(); }
+-keep class com.nas.cruzer.UpdateReceiver { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

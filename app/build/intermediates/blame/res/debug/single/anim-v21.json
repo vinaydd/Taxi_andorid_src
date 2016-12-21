@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

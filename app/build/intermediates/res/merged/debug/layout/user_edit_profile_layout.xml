@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full name"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+    		android:textStyle="normal"
+            />
+
+    <EditText
+        android:id="@+id/userChangeProfileNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal"
+        android:hint="Name"
+        >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registered mobile"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+    		android:textStyle="normal"
+            />
+  
+
+    <EditText
+        android:id="@+id/userChangeProfileNumberEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal"
+    	
+         />
+    
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+    		android:textStyle="normal"
+            />
+
+    <EditText
+        android:id="@+id/userChangeProfilePasswordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" 
+        >
+
+        <Button
+            android:background="@drawable/my_button"
+            android:id="@+id/userChangeProfileCancelBtn"
+            
+            android:layout_margin="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="16sp"
+        	android:fontFamily="sans-serif-light"
+    		android:textStyle="normal" 
+            />
+
+        <Button
+            android:background="@drawable/my_button"
+            android:id="@+id/userChangeProfileSaveBtn"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+        	android:fontFamily="sans-serif-light"
+    		android:textStyle="normal"
+            android:text="Save" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/res/merged/debug/menu/driver_menu.xml",
+        "source": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/src/main/res/menu/driver_menu.xml"
+    },
+    {
+        "merged": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/res/merged/debug/menu/login.xml",
+        "source": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/src/main/res/menu/login.xml"
+    },
+    {
+        "merged": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/res/merged/debug/menu/usermenu.xml",
+        "source": "/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/src/main/res/menu/usermenu.xml"
+    }
+]

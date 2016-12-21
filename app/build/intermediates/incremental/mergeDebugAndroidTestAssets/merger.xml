@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.0.1"><source path="/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/intermediates/exploded-aar/com.android.support/multidex-instrumentation/1.0.1/assets"/></dataSet><dataSet config="main"><source path="/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/src/androidTest/assets"/><source path="/home/kmidev/Desktop/VolleyExamples (1)/Taxi_andorid_src/app/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>

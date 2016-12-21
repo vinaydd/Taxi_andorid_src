@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <TextView
+        android:id="@+id/userRequestDetailsName"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/userRequestDetailsNumber"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/userRequestDetailsPickupLocation"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pickup Location"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/userRequestDetailsDropLocation"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop Location"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+    	android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/driverTrackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/my_button"
+		android:text="Track Driver" />
+
+</LinearLayout>
